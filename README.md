@@ -9,8 +9,8 @@ The configuration file of kubernetes can be found in `/kubernetes-manifest` dire
 # Building the software #
 
 ## Required Software ##
-1. Java
-2. Maven
+* Java
+* Maven
 
 ## Build instructions ##
 `mvn clean install`

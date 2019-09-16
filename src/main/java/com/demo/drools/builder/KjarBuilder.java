@@ -14,12 +14,8 @@ import org.kie.api.conf.EqualityBehaviorOption;
 import org.kie.api.conf.EventProcessingOption;
 import org.kie.api.runtime.conf.ClockTypeOption;
 
-import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by S.Tibriz on 14-3-2017. Builder class to build the Kjar.
- */
 @Builder
 public class KjarBuilder {
 
