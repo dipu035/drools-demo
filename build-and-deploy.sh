@@ -9,5 +9,5 @@ docker build -t "drools-demo:0.0.2" .
 echo "creating image tag and push to docker hub...."
 docker tag drools-demo:0.0.2 dipu035/drools-demo:0.0.2
 docker push dipu035/drools-demo:0.0.2
-echo "deploying application to google cloud using kubernetes manifest..."
+echo "deploying application kubernetes manifest..."
 kubectl apply -f kubernetes-manifest/drools-demo.yaml
